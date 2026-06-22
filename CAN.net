@@ -1,0 +1,2236 @@
+(export
+	(version "E")
+	(design
+		(source "/home/ph0x/Documents/KiCad/power_module/CAN.kicad_sch")
+		(date "2026-06-04T19:32:45")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Li Lion Power Module")
+				(company "FETfox")
+				(rev "RevB")
+				(date "2026-04-13")
+				(source "CAN.kicad_sch")
+				(comment
+					(number "1")
+					(value "W/ optional CAN bus interface & I2C fuel gauge.")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C13")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8acbd677-4db7-4246-98d3-dbccd47bca97")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "10nF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40c327c0-5256-4c6b-bc60-05ac09ee45e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "10pF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f7d0de18-5342-4600-8feb-db6eb8c0b774")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "10pF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "049d9e4d-1fbe-4982-9851-895bbbb5be7a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "4.7uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "004e0ea8-0c15-4965-920a-30386b0f8367")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0ca84af4-7c9e-40cb-811b-a7c6e801b27b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "4.7nF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "KGM21NR71H104KT")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "KGM21NR71H104KT")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b9594e86-aca3-417c-905d-eebd54daf456")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "4.7pF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MFR#") "CC0603JRNPO9BB101")
+				(field
+					(name "Package") "0603")
+				(field
+					(name "LCSC#") "C14858")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MFR#")
+				(value "CC0603JRNPO9BB101")
+			)
+			(property
+				(name "Package")
+				(value "0603")
+			)
+			(property
+				(name "LCSC#")
+				(value "C14858")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a0406d8-09f4-4cf7-aad7-6dfe80148121")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R47")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9508ff8b-7d55-45cf-924f-ad272c77ff4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R48")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89a4d07d-43d0-4e3a-a6a6-7cbd6dd9ef19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R49")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "350bb493-cd29-4f42-8d8a-9aa538dda859")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R50")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "686129bd-7bc6-49ad-8295-c72909a9538e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R51")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c3bad815-5e3f-4df0-8bd5-3a02d5308460")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R52")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00e6b34d-b71d-4a2d-bb66-928f0a0b5f67")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R53")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "75e4dc87-3ec0-4cc3-94e3-b443bd755a03")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R54")
+			(value "60R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f63b81bb-a7e9-4ba6-8b1f-54267492a790")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R55")
+			(value "60R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "MFR#") "CRCW0805768KFKEA")
+				(field
+					(name "Package") "0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "MFR#")
+				(value "CRCW0805768KFKEA")
+			)
+			(property
+				(name "Package")
+				(value "0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "501758d5-84d5-489a-beba-7c44d2cbb850")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U7")
+			(value "MCP2515-xST")
+			(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+			(datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf")
+			(description "Stand-Alone CAN Controller with SPI Interface, TSSOP-20")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf")
+				(field
+					(name "Description") "Stand-Alone CAN Controller with SPI Interface, TSSOP-20")
+			)
+			(libsource
+				(lib "Interface_CAN_LIN")
+				(part "MCP2515-xST")
+				(description "Stand-Alone CAN Controller with SPI Interface, TSSOP-20")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "CAN Controller SPI")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TSSOP*4.4x6.5mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dfcfd812-e782-4e15-a6c7-6b63d4948639")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "SN65HVD230")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf")
+			(description "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf")
+				(field
+					(name "Description") "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
+			)
+			(libsource
+				(lib "Interface_CAN_LIN")
+				(part "SN65HVD230")
+				(description "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "can transeiver ti low-power")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0bd541d1-7702-44b5-ae99-b5eba47a5292")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y1")
+			(value "20MHz")
+			(description "Three pin crystal, GND on pin 2")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Three pin crystal, GND on pin 2")
+			)
+			(libsource
+				(lib "Device")
+				(part "Crystal_GND2")
+				(description "Three pin crystal, GND on pin 2")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CAN.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "quartz ceramic resonator oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Crystal*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "191c877f-0fba-43ae-8afa-6d4d5238d63e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Crystal_GND2")
+			(description "Three pin crystal, GND on pin 2")
+			(footprints
+				(fp "Crystal*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "Crystal_GND2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Three pin crystal, GND on pin 2")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_US")
+			(description "Resistor, US symbol")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_US")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Interface_CAN_LIN")
+			(part "MCP2515-xST")
+			(description "Stand-Alone CAN Controller with SPI Interface, TSSOP-20")
+			(docs "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf")
+			(footprints
+				(fp "TSSOP*4.4x6.5mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U5")
+				(field
+					(name "Value") "MCP2515-xST")
+				(field
+					(name "Footprint") "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf")
+				(field
+					(name "Description") "Stand-Alone CAN Controller with SPI Interface, TSSOP-20")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TXCAN")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "RXCAN")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "CLKOUT/SOF")
+					(type "no_connect")
+				)
+				(pin
+					(num "4")
+					(name "~{TX0RTS}")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "~{TX1RTS}")
+					(type "no_connect")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "7")
+					(name "~{TX2RTS}")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "OSC2")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "OSC1")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "~{RX1BF}")
+					(type "no_connect")
+				)
+				(pin
+					(num "12")
+					(name "~{RX0BF}")
+					(type "no_connect")
+				)
+				(pin
+					(num "13")
+					(name "~{INT}")
+					(type "output")
+				)
+				(pin
+					(num "14")
+					(name "SCK")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "16")
+					(name "SI")
+					(type "input")
+				)
+				(pin
+					(num "17")
+					(name "SO")
+					(type "output")
+				)
+				(pin
+					(num "18")
+					(name "~{CS}")
+					(type "input")
+				)
+				(pin
+					(num "19")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Interface_CAN_LIN")
+			(part "SN65HVD230")
+			(description "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
+			(docs "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN65HVD230")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf")
+				(field
+					(name "Description") "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "R")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "Vref")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "CANL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "CANH")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "Rs")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Device")
+			(uri "${KICAD9_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Interface_CAN_LIN")
+			(uri "${KICAD9_SYMBOL_DIR}/Interface_CAN_LIN.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R47")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R53")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/CANH")
+			(class "Default")
+			(node
+				(ref "R54")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "7")
+				(pinfunction "CANH_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/CANL")
+			(class "Default")
+			(node
+				(ref "R55")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "CANL_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CAN_CS")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "18")
+				(pinfunction "~{CS}_18")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/CAN_INT")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "13")
+				(pinfunction "~{INT}_13")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "6")
+			(name "/CAN_RESET")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "19")
+				(pinfunction "~{RESET}_19")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "/OSC1")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R49")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "9")
+				(pinfunction "OSC1_9")
+				(pintype "input")
+			)
+			(node
+				(ref "Y1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/OSC2")
+			(class "Default")
+			(node
+				(ref "R48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R49")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "8")
+				(pinfunction "OSC2_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "9")
+			(name "/RXCAN")
+			(class "Default")
+			(node
+				(ref "R51")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "RXCAN_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "/Rs")
+			(class "Default")
+			(node
+				(ref "R52")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "8")
+				(pinfunction "Rs_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/SPI_MISO")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "17")
+				(pinfunction "SO_17")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "12")
+			(name "/SPI_MOSI")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "16")
+				(pinfunction "SI_16")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/SPI_SCK")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "14")
+				(pinfunction "SCK_14")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/TXCAN")
+			(class "Default")
+			(node
+				(ref "R50")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "TXCAN_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "/Vref")
+			(class "Default")
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R54")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R55")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "Vref_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R52")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "10")
+				(pinfunction "VSS_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(C16-Pad2)")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(U7-VDD)")
+			(class "Default")
+			(node
+				(ref "R47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "20")
+				(pinfunction "VDD_20")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(U8-D)")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R50")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "D_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(U8-R)")
+			(class "Default")
+			(node
+				(ref "R51")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "R_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(U8-VCC)")
+			(class "Default")
+			(node
+				(ref "R53")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "VCC_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U7-CLKOUT{slash}SOF-Pad3)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "CLKOUT/SOF_3")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(U7-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(U7-NC-Pad15)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "15")
+				(pinfunction "NC_15")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(U7-~{RX0BF}-Pad12)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "12")
+				(pinfunction "~{RX0BF}_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(U7-~{RX1BF}-Pad11)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "11")
+				(pinfunction "~{RX1BF}_11")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U7-~{TX0RTS}-Pad4)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "4")
+				(pinfunction "~{TX0RTS}_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U7-~{TX1RTS}-Pad5)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "5")
+				(pinfunction "~{TX1RTS}_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U7-~{TX2RTS}-Pad7)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "7")
+				(pinfunction "~{TX2RTS}_7")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

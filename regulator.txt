@@ -1,0 +1,43 @@
+# KiCad Netlist — Li Lion Power Module
+# 20 components, 16 nets, 1 sheets
+
+## Sheet: 
+components[20]{ref,value,footprint}:
+  C10,10uF,C_0805_2012Metric
+  C11,10uF,C_0805_2012Metric
+  C6,22uF,C_0805_2012Metric
+  C7,0.1uF,C_0805_2012Metric
+  C8,22uF,C_0805_2012Metric
+  C9,22uF,C_0805_2012Metric
+  L2,1uH,DR73
+  LED2,PGOOD,LED_0805_2012Metric
+  R10,100k,R_0805_2012Metric
+  R11,100R,R_0805_2012Metric
+  R16,10k,R_0805_2012Metric
+  R38,0R,R_0805_2012Metric
+  R39,1R,R_0805_2012Metric
+  R54,0R,R_0805_2012Metric
+  R60,0R,R_0805_2012Metric
+  R61,0R,R_0805_2012Metric
+  R8,137k,R_0805_2012Metric
+  R9,1.2M,R_0805_2012Metric
+  U2,MD53R33,SOT-23-5
+  U6,TPS63020DSJR,IC_TPS63020DSJR
+
+nets[16]{name,pins}:
+  +3V3,"R11.2,R16.2,R38.2,R60.1"
+  /FB,"R8.1,R9.2,U6.3"
+  /LDO_VIN,"C10.1,R61.2,U2.1,U2.3"
+  /LDO_VOUT,"C11.1,R60.2,U2.5"
+  /PS,"R10.1,U6.13"
+  /REG_PGOOD,"LED2.1,R16.1,U6.14"
+  /REG_VIN,"C6.1,R54.2,U6.10,U6.11"
+  /SW1,"L2.2,U6.8,U6.9"
+  /SW2,"L2.1,U6.6,U6.7"
+  /Vina,"C7.1,U6.1,U6.12"
+  GND,"C10.2,C6.2,C7.2,C8.2,C9.2,R10.2,R39.2,R8.2,U2.2,U6.15,U6.2"
+  Net-(C11-Pad2),"C11.2,R39.1"
+  Net-(LED2-A),"LED2.2,R11.1"
+  REG_VOUT,"C8.1,C9.1,R38.1,R61.1,R9.1,U6.4,U6.5"
+  SYS,"R54.1"
+  unconnected-(U2-NC-Pad4),"U2.4"

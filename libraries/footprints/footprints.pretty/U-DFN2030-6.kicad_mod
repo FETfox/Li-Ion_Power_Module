@@ -1,0 +1,230 @@
+(footprint "U-DFN2030-6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "U-DFN2030-6 (Type B)_2024")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4d410321-5c39-43bd-92c0-883727582e60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "U-DFN2030-6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "028a79f7-5a73-4ea8-804c-a19adc349493")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "929b7e66-51f1-4265-a3b0-2a2974bbf777")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce888a49-994a-4653-b173-dbf415683f9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.25 2.1)
+		(end -0.25 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64ba544e-7d9c-4ac9-84e8-d33675f534a8")
+	)
+	(fp_line
+		(start -0.25 2.2)
+		(end -0.25 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8306e58b-85bc-4223-bfa1-2c9b85483d80")
+	)
+	(fp_arc
+		(start -0.25 2.1)
+		(mid -0.2 2.15)
+		(end -0.25 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88cc2845-4bc3-4a2e-9dae-1bd7b2f247b1")
+	)
+	(fp_arc
+		(start -0.25 2.2)
+		(mid -0.3 2.15)
+		(end -0.25 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a85f905-f456-4a0c-beec-edb35ab50dd5")
+	)
+	(fp_line
+		(start -2 -2.65)
+		(end 2 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e34370be-1d93-42a7-ac7b-0049be089910")
+	)
+	(fp_line
+		(start -2 2.65)
+		(end -2 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "604fdc8f-2aca-4809-815e-756eb3d6503e")
+	)
+	(fp_line
+		(start 2 -2.65)
+		(end 2 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "276ecc56-65e1-40ae-8858-67d689c0420e")
+	)
+	(fp_line
+		(start 2 2.65)
+		(end -2 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2433f3b-76a7-4043-a1ed-030b1fa9198b")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b574a2e7-b601-4452-aa74-a1e815c9d615")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f19a328d-b8ec-407e-b984-2ecccd3afab6")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17296106-f364-463b-87df-d8a59fe1beb9")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44644b9d-cd4e-4c99-a82b-bef21f291a5c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5c2128bd-4928-4c31-8959-63ea8f067d8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.25 1.385 90)
+		(size 0.53 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c314f2b6-a220-46cb-a0df-6449c1f568bf")
+	)
+	(pad "3" smd rect
+		(at 0.5 1.385)
+		(size 0.35 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1593a502-d659-4d9c-b037-54f94709e2cf")
+	)
+	(pad "4" smd rect
+		(at 0.5 -1.385)
+		(size 0.35 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3908b1c9-e15d-44c9-ba18-85c0556a970b")
+	)
+	(pad "6" smd rect
+		(at -0.25 -1.385 90)
+		(size 0.53 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "607f664d-301d-434b-9fc4-50a61aa9ac8f")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eff06595-9914-402b-918b-8aa138294991")
+	)
+	(embedded_fonts no)
+	(model "/home/ph0x/.local/share/kicad/10.0/3dmodels/DMN2014LHAB-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
