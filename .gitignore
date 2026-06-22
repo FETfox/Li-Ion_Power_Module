@@ -1,0 +1,10 @@
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*-backups/
+fp-info-cache
+*~
+.DS_Store
+*.swp
+~*
+*.lck
