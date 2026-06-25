@@ -5,11 +5,10 @@
 	(uuid "5eec5e55-8730-4384-9d68-69304a645f60")
 	(paper "USLetter")
 	(title_block
-		(title "Li Lion Power Module")
-		(date "2026-04-13")
-		(rev "RevB")
-		(company "FETfox")
-		(comment 1 "W/ optional CAN bus interface & I2C fuel gauge.")
+		(title "Li Lion Power Module w/ Optional Fuel Gauge &CAN Bus")
+		(date "2026-06-25")
+		(rev "RevA")
+		(company "github.com/FETfox/Li-Ion_Power_Module")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3220,15 +3219,16 @@
 		)
 		(uuid "20aed0ae-b47e-4487-8996-a16bdfcebbca")
 	)
-	(text "Li Ion Charger IC with Voltage and Current Protection IC with Optional  I2C Fuel Gauge IC"
+	(text "Li Ion Cell, Charger IC, Protection IC \n& Optional Fuel Gauge IC"
 		(exclude_from_sim no)
-		(at 120.65 17.018 0)
+		(at 13.97 16.002 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "3290923f-03ce-43e4-9869-d84d9fbecd36")
 	)
