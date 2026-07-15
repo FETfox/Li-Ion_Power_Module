@@ -11,6 +11,36 @@
 		(company "github.com/FETfox/Li-Ion_Power_Module")
 	)
 	(lib_symbols)
+	(text "3v3"
+		(exclude_from_sim no)
+		(at 237.744 145.542 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "16a3b75c-0f00-4ac6-8b23-c9f1f51d79aa")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 223.774 158.242 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "52e3a3d4-5b76-489f-afa2-c0d3b125c6f9")
+	)
+	(text "3v3"
+		(exclude_from_sim no)
+		(at 237.744 137.922 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "70dedf92-d1ee-42e4-bb2c-7f2884d8a413")
+	)
 	(text "5W 2700 mAh Power Supply with USB Charging\nw/ Optional Fuel Gauge & CAN Bus"
 		(exclude_from_sim no)
 		(at 13.208 13.716 0)
@@ -32,6 +62,7 @@
 		(stroke
 			(width 0)
 			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
 			(type color)
@@ -67,6 +98,50 @@
 			)
 		)
 		(uuid "236d13ca-0434-4398-9b00-643c9a3b236b")
+	)
+	(text_box "MCU\nDATA BUS"
+		(exclude_from_sim no)
+		(at 162.56 152.4 0)
+		(size 19.05 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "240e768a-4882-4e31-a693-fa099da5ca4e")
+	)
+	(text_box "DATA"
+		(exclude_from_sim no)
+		(at 181.61 157.5837 0)
+		(size 19.05 4.9763)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "251c11a2-2502-40ba-9b0d-cdac2cc634df")
 	)
 	(text_box "CHARGER"
 		(exclude_from_sim no)
@@ -294,7 +369,7 @@
 		(size 4.9763 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
@@ -378,7 +453,7 @@
 	)
 	(text_box "POWER PATH"
 		(exclude_from_sim no)
-		(at 207.01 134.62 90)
+		(at 205.9688 134.62 90)
 		(size 7.3912 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -398,13 +473,35 @@
 		)
 		(uuid "eb2332f2-ef24-4f61-80cc-1bbed023fddc")
 	)
+	(text_box "DATA"
+		(exclude_from_sim no)
+		(at 168.91 135.89 90)
+		(size 4.9763 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 194 194 1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "ed46d8ef-8897-40bf-a8ea-50523e379718")
+	)
 	(text_box "CONTROL"
 		(exclude_from_sim no)
 		(at 219.71 124.46 0)
 		(size 19.05 4.9763)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
@@ -452,7 +549,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "0e4cadd3-57bf-40c6-bce2-137db95092a1")
 	)
@@ -506,6 +604,17 @@
 		)
 		(uuid "1b4931e0-b365-4ac9-879a-fc9df18dc514")
 	)
+	(polyline
+		(pts
+			(xy 242.57 134.62) (xy 242.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "1db77ae3-2403-48f1-a610-7b647ba0b926")
+	)
 	(wire
 		(pts
 			(xy 41.91 148.59) (xy 104.14 148.59)
@@ -546,16 +655,6 @@
 		)
 		(uuid "279dcca9-0a94-46fd-b78a-4d2bde67f2d3")
 	)
-	(polyline
-		(pts
-			(xy 228.6 132.08) (xy 238.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27be4740-6220-460c-8de4-8ec2477b3972")
-	)
 	(wire
 		(pts
 			(xy 82.55 133.35) (xy 82.55 114.3)
@@ -582,7 +681,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "51adc920-92f0-4b15-a2ba-fb66cde3b316")
 	)
@@ -605,16 +705,6 @@
 			(type default)
 		)
 		(uuid "65474b0b-e1e9-449f-b0de-73932b50cfd5")
-	)
-	(polyline
-		(pts
-			(xy 228.6 132.08) (xy 228.6 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668caa01-d5fb-4014-a9f8-6935e3f228f1")
 	)
 	(wire
 		(pts
@@ -712,7 +802,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "9274a2e0-7d32-4202-997e-491add2c19b4")
 	)
@@ -732,7 +823,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "9fd59c41-9177-4999-96ca-f05a4d0f5637")
 	)
@@ -835,6 +927,17 @@
 			(type default)
 		)
 		(uuid "d05f0874-e62b-48c2-ae61-955912cb8f25")
+	)
+	(polyline
+		(pts
+			(xy 233.68 138.43) (xy 242.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "d1fea8bb-c2a9-4e49-90f6-f650720d799b")
 	)
 	(wire
 		(pts

@@ -2416,7 +2416,7 @@
 		(at 185.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad9bedd2-6c5f-4401-877d-cba8905b98ee")
+		(uuid "a6afde70-df15-458f-af77-2fa80eabb53c")
 	)
 	(junction
 		(at 184.15 81.28)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 69.85) (xy 184.15 72.39)
+			(xy 184.15 68.58) (xy 184.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 185.42 68.58)
+			(xy 185.42 81.28) (xy 185.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 69.85) (xy 184.15 69.85)
+			(xy 173.99 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 55.88) (xy 185.42 60.96)
+			(xy 185.42 55.88) (xy 185.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2533,16 +2533,6 @@
 			(type default)
 		)
 		(uuid "78909305-876f-422e-9bd2-e4bb5b56d091")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 173.99 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834bb4e6-8804-4af2-a2e8-434a52367799")
 	)
 	(wire
 		(pts
@@ -2593,6 +2583,16 @@
 			(type default)
 		)
 		(uuid "f7cb0f63-e2ba-4df0-9201-5eaee73ca55f")
+	)
+	(label "UDPI_VCC"
+		(at 107.95 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b075d23e-b900-46b7-ac7f-037152358de9")
 	)
 	(hierarchical_label "UDPI"
 		(shape bidirectional)
@@ -3604,7 +3604,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 185.42 64.77 270)
+		(at 185.42 62.23 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3615,7 +3615,7 @@
 		(dnp no)
 		(uuid "ab5f3594-c57b-4e69-8cc8-14427f8cf5f7")
 		(property "Reference" "TVS2"
-			(at 182.88 63.4999 90)
+			(at 182.88 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Value" "SMBJ6.0A"
-			(at 182.88 66.0399 90)
+			(at 182.88 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3637,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 185.42 64.77 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 64.77 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3659,7 @@
 			)
 		)
 		(property "Description" "TVS diode"
-			(at 185.42 64.77 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3670,7 @@
 			)
 		)
 		(property "LCSC#" "C140903"
-			(at 185.42 64.77 90)
+			(at 185.42 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3681,7 @@
 			)
 		)
 		(property "MFR#" "SMBJ6.0A"
-			(at 185.42 64.77 90)
+			(at 185.42 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

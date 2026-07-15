@@ -841,7 +841,12 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "description": "Variant for 5v supply.",
+        "name": "5v"
+      }
+    ]
   },
   "sheets": [
     [

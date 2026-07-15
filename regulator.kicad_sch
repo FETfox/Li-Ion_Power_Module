@@ -2181,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 107.95 162.56)
+			(xy 110.49 163.83) (xy 107.95 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2288,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "3ef0f740-902e-4f9e-a604-4882bfccd7c5")
+	)
+	(wire
+		(pts
+			(xy 110.49 154.94) (xy 110.49 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efb8527-8f58-4498-81b1-c86a90390d3a")
 	)
 	(wire
 		(pts
@@ -2441,16 +2451,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.32) (xy 200.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b312fe-0f50-47fb-8ae7-ff45ec2936a5")
-	)
-	(wire
-		(pts
 			(xy 125.73 77.47) (xy 128.27 77.47)
 		)
 		(stroke
@@ -2461,13 +2461,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 110.49 154.94)
+			(xy 185.42 147.32) (xy 200.66 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3bc1e7d-009c-4138-9f78-a69a80026839")
+		(uuid "c338fb25-f534-4576-abc0-4cef869b2ebf")
 	)
 	(wire
 		(pts
@@ -2488,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "dca589ac-4385-4dad-b599-c6e98735a6df")
+	)
+	(wire
+		(pts
+			(xy 107.95 156.21) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0eab00c-004e-4309-bf4d-1b0ca4245f38")
 	)
 	(wire
 		(pts
@@ -2570,7 +2580,7 @@
 		(uuid "50e6b2b4-2973-451c-881d-ab0f14e872e3")
 	)
 	(label "REG_PGOOD"
-		(at 110.49 162.56 0)
+		(at 110.49 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,6 +2598,16 @@
 			(justify right bottom)
 		)
 		(uuid "6e1b077f-bcc1-494e-9763-d7d896c82dbe")
+	)
+	(label "LDO_SNUB"
+		(at 200.66 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f735a2d-b7a5-4a0e-8f9c-54f1906925f2")
 	)
 	(label "SW2"
 		(at 128.27 64.77 180)
@@ -2609,6 +2629,16 @@
 			(justify right bottom)
 		)
 		(uuid "84b8b9bd-0aea-4c45-9efa-1f7139871770")
+	)
+	(label "LED3_R"
+		(at 107.95 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8718fd4a-e805-47fb-b94d-208ff0f8782f")
 	)
 	(label "Vina"
 		(at 125.73 80.01 180)
@@ -3992,7 +4022,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 158.75 90)
+		(at 107.95 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4002,7 +4032,7 @@
 		(dnp no)
 		(uuid "5f801a14-abfe-4f2b-85f8-cadb022b611b")
 		(property "Reference" "LED3"
-			(at 105.41 156.21 90)
+			(at 105.41 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4012,7 +4042,7 @@
 			)
 		)
 		(property "Value" "PGOOD"
-			(at 104.14 160.3375 0)
+			(at 104.14 161.6075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,7 +4053,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +4075,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +4086,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +4097,7 @@
 			)
 		)
 		(property "MFR#" ""
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +4108,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 107.95 158.75 0)
+			(at 107.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,7 +4119,7 @@
 			)
 		)
 		(property "LCSC#" "C2286"
-			(at 107.95 158.75 90)
+			(at 107.95 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

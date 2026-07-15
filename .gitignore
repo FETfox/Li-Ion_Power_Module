@@ -8,3 +8,5 @@ fp-info-cache
 *.swp
 ~*
 *.lck
+*.net
+power_module.txt
