@@ -537,7 +537,7 @@
         "name": "Gate",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
         "tuning_profile": ""
       },
       {
@@ -586,10 +586,10 @@
         "tuning_profile": ""
       },
       {
-        "name": "Status/Control",
+        "name": "Status & Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": ""
       },
       {
@@ -744,6 +744,30 @@
       {
         "netclass": "Analog",
         "pattern": "*Vref"
+      },
+      {
+        "netclass": "Status & Control",
+        "pattern": "*CHG*"
+      },
+      {
+        "netclass": "Status & Control",
+        "pattern": "*FG_GPOUT"
+      },
+      {
+        "netclass": "Status & Control",
+        "pattern": "*/CE*"
+      },
+      {
+        "netclass": "Status & Control",
+        "pattern": "*REG_PGOOD"
+      },
+      {
+        "netclass": "Status & Control",
+        "pattern": "*PS*"
+      },
+      {
+        "netclass": "Gate",
+        "pattern": "*out*"
       }
     ]
   },
