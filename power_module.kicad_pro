@@ -523,7 +523,7 @@
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 9,
-        "schematic_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgb(128, 77, 0)",
         "tuning_profile": ""
       },
       {
