@@ -1462,16 +1462,16 @@
 		(uuid "a56705a3-3e88-422d-91d7-f546f7a8e225")
 	)
 	(junction
-		(at 148.59 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4517537-378d-4516-a61b-ed7e2cd8527b")
-	)
-	(junction
 		(at 175.26 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2310ab8-1a28-4e1a-9863-48bb5b6ed268")
+	)
+	(junction
+		(at 148.59 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e65ad3c2-2374-4d73-9230-26b310e55241")
 	)
 	(junction
 		(at 185.42 78.74)
@@ -1507,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 90.17) (xy 149.86 90.17)
+			(xy 148.59 90.17) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1594,16 +1594,6 @@
 			(type default)
 		)
 		(uuid "8790796b-1cbc-4b00-8013-e3dd461c0af2")
-	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98970bef-88cf-419a-b007-1f6e35f0e75b")
 	)
 	(wire
 		(pts
@@ -1897,7 +1887,7 @@
 		)
 		(uuid "9fbfb4db-1120-47dc-a4ee-282e1d824492")
 	)
-	(hierarchical_label "UDPI"
+	(hierarchical_label "UPDI"
 		(shape bidirectional)
 		(at 158.75 90.17 0)
 		(effects
@@ -2479,7 +2469,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 153.67 90.17 90)
+		(at 154.94 90.17 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2490,7 +2480,7 @@
 		(dnp no)
 		(uuid "53ebd305-4c34-407a-a018-66166932aa57")
 		(property "Reference" "R31"
-			(at 151.13 86.106 90)
+			(at 152.4 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2501,7 +2491,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 151.384 88.138 90)
+			(at 152.654 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2512,7 +2502,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.924 91.186 90)
+			(at 155.194 91.186 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2534,7 +2524,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 153.67 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2535,7 @@
 			)
 		)
 		(property "MFR#" "RC0603FR-07100RL"
-			(at 153.67 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +2546,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 153.67 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2557,7 @@
 			)
 		)
 		(property "LCSC#" "C105588"
-			(at 153.67 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -515,92 +515,95 @@
       {
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": ""
       },
       {
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": ""
       },
       {
         "name": "CAN Logic",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Charge Path",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 255, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Gate",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "I2C Bus",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Logic Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Power Path",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SPI Bus",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Status/Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 12
+      },
+      {
+        "name": "I2C Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 132, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Logic Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
+        "name": "Power Path",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 10
+      },
+      {
+        "name": "SPI Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 194, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgb(255, 255, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Status/Control",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "name": "UART/UPDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 72, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Xstl",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       }
     ],
@@ -609,7 +612,140 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "-CELL"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "REG_VOUT"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "*REG_VIN"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "*Vina"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "+CELL"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "+PACK"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "SRX"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*LDO*"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*MCU_VCC"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*CAN_CTRL_VDD"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*CAN_TRANS_VCC"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*UPDI_VCC"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "*SW*"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "*CANL"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "*CANH"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN_RESET"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN_INT"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CANTRANS*"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN"
+      },
+      {
+        "netclass": "SPI Bus",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "SPI Bus",
+        "pattern": "*CAN_CS"
+      },
+      {
+        "netclass": "I2C Bus",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "UART/UPDI",
+        "pattern": "*UPDI"
+      },
+      {
+        "netclass": "UART/UPDI",
+        "pattern": "*UPDI_MCU"
+      },
+      {
+        "netclass": "UART/UPDI",
+        "pattern": "*UART*"
+      },
+      {
+        "netclass": "Xstl",
+        "pattern": "*OSC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*ADC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*NTC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Vref"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -617,6 +753,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
