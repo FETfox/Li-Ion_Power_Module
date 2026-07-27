@@ -3422,6 +3422,12 @@
 		(uuid "219b25e2-a4d2-498a-a9cf-132f1e26bd1b")
 	)
 	(junction
+		(at 245.11 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27790f0f-bb60-424d-93e3-684cd6512fc3")
+	)
+	(junction
 		(at 233.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3596,6 +3602,12 @@
 		(uuid "d958158c-4d6e-4cd8-b488-7b0c7a24d9d1")
 	)
 	(junction
+		(at 234.95 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed7696f-4d7c-4470-89df-00d5cb043c2b")
+	)
+	(junction
 		(at 177.8 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3749,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 30.48) (xy 245.11 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b78bf6-685e-40e9-809a-d6e1479799af")
+	)
+	(wire
+		(pts
 			(xy 105.41 54.61) (xy 149.86 54.61)
 		)
 		(stroke
@@ -3849,6 +3871,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 30.48) (xy 234.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748f1795-d33b-47ff-9b5d-5846bdb14d33")
+	)
+	(wire
+		(pts
 			(xy 162.56 132.08) (xy 167.64 132.08)
 		)
 		(stroke
@@ -3939,6 +3971,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 30.48) (xy 234.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903a2ca8-5206-4765-a244-8f1e9140b90f")
+	)
+	(wire
+		(pts
 			(xy 113.03 138.43) (xy 119.38 138.43)
 		)
 		(stroke
@@ -3966,6 +4008,16 @@
 			(type default)
 		)
 		(uuid "a8ba81eb-521b-49f3-8230-d16ccd8bf90a")
+	)
+	(wire
+		(pts
+			(xy 245.11 30.48) (xy 245.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9ea109-3170-46d9-9f7f-7a7f578317c0")
 	)
 	(wire
 		(pts
@@ -5383,6 +5435,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0f403318-3e5e-43fd-9c10-d0c8326b4f73")
+		(property "Reference" "R17"
+			(at 237.744 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 240.538 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 240.284 29.464 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "HP06W2J0000T5E"
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C473612"
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7100eb74-dc7b-4538-a041-e079765ab2bc")
+		)
+		(pin "1"
+			(uuid "c15211c3-e2dc-4a60-9727-fa71c41c166c")
+		)
+		(instances
+			(project "power_module"
+				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
+					(reference "R17")
+					(unit 1)
+					(variant
+						(name "5v Dumb")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 81.28 138.43 0)
 		(mirror y)
@@ -5695,6 +5864,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R12")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5887,6 +6064,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R3")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -6378,6 +6563,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R7")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -7551,7 +7744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e08ec79-b192-4702-8336-c58a45545624")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 245.11 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +7841,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8597,6 +8790,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R1")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -9042,7 +9243,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "94eedbd0-ef6c-4dee-8b64-569197e02d8c")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 249.936 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,8 +9340,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -10041,6 +10250,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R11")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -10414,6 +10631,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10844,6 +11069,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R14")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11133,7 +11366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcb8ea4d-9732-48ef-9c1d-abf04ab4ca6f")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 241.046 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +11463,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11423,6 +11656,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "C6")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12393,6 +12634,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "C5")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)

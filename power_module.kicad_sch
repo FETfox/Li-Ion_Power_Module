@@ -41,16 +41,15 @@
 		)
 		(uuid "70dedf92-d1ee-42e4-bb2c-7f2884d8a413")
 	)
-	(text "5W 2700 mAh Power Supply with USB Charging\nw/ Optional Fuel Gauge & CAN Bus"
+	(text "5W/7W peak 2700 mAh Power Supply with USB Charging\n3v3 or 5v w/ Optional Fuel Gauge & CAN Bus"
 		(exclude_from_sim no)
-		(at 13.208 13.716 0)
+		(at 85.09 19.812 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify left top)
 		)
 		(uuid "9cec95ab-e6a0-419e-a428-761ed660eaa0")
 	)

@@ -2935,7 +2935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bfb794b-2ab1-4135-8157-1f44e58c3f89")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 140.716 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3032,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3910,7 +3910,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "583de2b2-3329-4cc2-b210-3f5e4e6d041b")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 169.672 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,8 +4020,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp no)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -4605,7 +4613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7607c6a8-08ba-4af5-aadb-bab876b0c684")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 176.784 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,8 +4710,17 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+						(exclude_from_sim yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4987,6 +5004,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5083,7 +5108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aa42d23-f449-4677-ad3a-0c161e6a7bc8")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 103.632 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5186,7 +5211,7 @@
 			)
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99e89aa6-5c28-4401-8082-7d34fc1f0e15")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 113.03 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,7 +5441,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5539,6 +5564,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5717,7 +5750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a957bb52-cd50-49f4-ac62-78ba4d0b1465")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 205.486 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,8 +5853,16 @@
 			)
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5960,6 +6001,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
 					(reference "U5")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5975,7 +6024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1cc436f-81ab-4e8b-8f0d-f5e7385bfec5")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 148.59 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,7 +6127,7 @@
 			)
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6737,7 +6786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e433afe7-7c25-4e20-ab86-4972ba472e71")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 149.606 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +6889,7 @@
 			)
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6857,7 +6906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb8e1c8a-1c54-46f7-bfee-095677f6b3db")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 149.606 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,8 +7009,22 @@
 			)
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(field
+							(name "Value")
+							(value "768k")
+						)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(field
+							(name "Value")
+							(value "768k")
+						)
+					)
 				)
 			)
 		)
@@ -6977,7 +7040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1846dc2-fcdb-4794-9d81-a1c06a568082")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 205.994 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7074,8 +7137,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/8030bb5b-b463-45e7-87db-4ab635727d1f"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
+					(variant
+						(name "3v3")
+						(dnp yes)
+					)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)

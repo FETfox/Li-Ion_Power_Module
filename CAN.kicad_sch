@@ -3446,6 +3446,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C20")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3540,7 +3544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e6b34d-b71d-4a2d-bb66-928f0a0b5f67")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 193.294 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,8 +3641,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3833,6 +3841,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C19")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3948,6 +3960,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C25")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4058,6 +4074,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "U8")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4172,6 +4192,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C22")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4292,6 +4316,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "Y1")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4486,6 +4514,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4890,7 +4922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "501758d5-84d5-489a-beba-7c44d2cbb850")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 227.584 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,8 +5019,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5004,7 +5040,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "539d9922-5b5b-4b20-85a4-a77958c12422")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 84.074 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5137,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -5217,6 +5253,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C24")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5232,7 +5272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "686129bd-7bc6-49ad-8295-c72909a9538e")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 178.816 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,8 +5369,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5657,7 +5701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75e4dc87-3ec0-4cc3-94e3-b443bd755a03")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 209.296 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,8 +5798,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5871,6 +5919,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C21")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6118,7 +6170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89a4d07d-43d0-4e3a-a6a6-7cbd6dd9ef19")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 82.804 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,8 +6267,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6332,6 +6388,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C16")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6426,7 +6486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9508ff8b-7d55-45cf-924f-ad272c77ff4e")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 70.866 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,8 +6583,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6799,6 +6863,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C23")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7053,7 +7121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3bad815-5e3f-4df0-8bd5-3a02d5308460")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 178.816 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,8 +7218,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7260,6 +7332,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "TVS1")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7407,6 +7483,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "U7")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7423,7 +7503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f63b81bb-a7e9-4ba6-8b1f-54267492a790")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 229.108 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,8 +7600,12 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7636,6 +7720,10 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
 					(reference "C18")
 					(unit 1)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)

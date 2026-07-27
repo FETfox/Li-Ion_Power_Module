@@ -3095,7 +3095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "244aa2cb-6603-4807-a758-74adeeec8c28")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 154.94 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3155,7 +3155,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/a7e85cd0-99ff-418b-b157-324cad7ee261"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3827,7 +3827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83b28a40-80cd-4563-9aa9-e33355b8403f")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 168.91 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/a7e85cd0-99ff-418b-b157-324cad7ee261"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4396,7 +4396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e755b207-b012-4ea5-a1dc-840f23af9b0e")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 178.816 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +4493,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/a7e85cd0-99ff-418b-b157-324cad7ee261"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb6edc5a-a15b-4019-aaa7-101de12dcaf3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 154.94 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4570,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/a7e85cd0-99ff-418b-b157-324cad7ee261"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

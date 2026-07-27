@@ -2020,7 +2020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13514aa8-7b1a-41a3-86b0-c30ed07bddce")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 178.816 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,8 +2117,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -2135,7 +2143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "144ca6d1-06dc-4022-bad5-7d75c6ca0d9c")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 180.34 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2232,8 +2240,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -2348,6 +2364,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -2364,7 +2388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1936ac3c-bc21-48cf-8a76-f06584504414")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 179.578 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,8 +2485,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -2479,7 +2511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53ebd305-4c34-407a-a018-66166932aa57")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 152.4 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,7 +2608,7 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2594,7 +2626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "618f555d-9bf6-4d32-90d9-977f1b0b539c")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 179.832 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,8 +2723,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -2962,6 +3002,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3054,7 +3102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9513ce6c-e53e-4a84-a09d-d3e2ce14bda9")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 178.816 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,8 +3199,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3169,7 +3225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5a73bc6-6503-4dc8-bed8-425f9ad5d605")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 179.578 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,8 +3322,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3362,7 +3426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c15c9d52-e4c3-4dd4-89aa-6b715b338e72")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 179.324 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,8 +3523,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3554,7 +3626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db457897-7a68-428b-b8cd-7f07ec75d59d")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 132.334 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,8 +3723,16 @@
 		(instances
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -3815,6 +3895,14 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/20438595-580a-4bb7-878e-f4267085e0b4"
 					(reference "U6")
 					(unit 1)
+					(variant
+						(name "3v3 Dumb")
+						(dnp yes)
+					)
+					(variant
+						(name "5v Dumb")
+						(dnp yes)
+					)
 				)
 			)
 		)
