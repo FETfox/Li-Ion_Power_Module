@@ -515,35 +515,42 @@
       {
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 132)",
         "tuning_profile": ""
       },
       {
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(128, 77, 0)",
         "tuning_profile": ""
       },
       {
         "name": "CAN Logic",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(0, 0, 132)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Charger Settings",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(72, 0, 72)",
         "tuning_profile": ""
       },
       {
         "name": "Gate",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(194, 194, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": "",
         "wire_width": 12
@@ -551,14 +558,14 @@
       {
         "name": "I2C Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(0, 132, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Logic Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 8
@@ -566,7 +573,7 @@
       {
         "name": "Power Path",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(194, 0, 0)",
         "tuning_profile": "",
         "wire_width": 10
@@ -574,35 +581,35 @@
       {
         "name": "SPI Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(0, 194, 0)",
         "tuning_profile": ""
       },
       {
         "name": "SW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(132, 132, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Status & Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": ""
       },
       {
         "name": "UART/UPDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 72, 0)",
         "tuning_profile": ""
       },
       {
         "name": "Xstl",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": ""
       }
@@ -614,12 +621,104 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "Analog",
+        "pattern": "*Vref"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*NTC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*ADC_CC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*TS"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "*CANH"
+      },
+      {
+        "netclass": "CAN Bus",
+        "pattern": "*CANL"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CANTRANS*"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN_INT"
+      },
+      {
+        "netclass": "CAN Logic",
+        "pattern": "*CAN_RESET"
+      },
+      {
+        "netclass": "Charger Settings",
+        "pattern": "*ITERM"
+      },
+      {
+        "netclass": "Charger Settings",
+        "pattern": "*TMR"
+      },
+      {
+        "netclass": "Charger Settings",
+        "pattern": "*ILIM"
+      },
+      {
+        "netclass": "Gate",
+        "pattern": "*POL_GATE"
+      },
+      {
+        "netclass": "Gate",
+        "pattern": "*out*"
+      },
+      {
         "netclass": "Ground",
         "pattern": "GND"
       },
       {
         "netclass": "Ground",
         "pattern": "-CELL"
+      },
+      {
+        "netclass": "I2C Bus",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*LDO*"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*UPDI_VCC"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*MCU_VCC"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*CAN_CTRL_VDD"
+      },
+      {
+        "netclass": "Logic Power",
+        "pattern": "*CAN_TRANS_VCC"
+      },
+      {
+        "netclass": "Power Path",
+        "pattern": "*REG_VIN"
       },
       {
         "netclass": "Power Path",
@@ -631,7 +730,7 @@
       },
       {
         "netclass": "Power Path",
-        "pattern": "*REG_VIN"
+        "pattern": "SRX"
       },
       {
         "netclass": "Power Path",
@@ -650,100 +749,16 @@
         "pattern": "+PACK"
       },
       {
-        "netclass": "Power Path",
-        "pattern": "SRX"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "*LDO*"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "*MCU_VCC"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "*CAN_CTRL_VDD"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "*CAN_TRANS_VCC"
-      },
-      {
-        "netclass": "Logic Power",
-        "pattern": "*UPDI_VCC"
-      },
-      {
-        "netclass": "SW",
-        "pattern": "*SW*"
-      },
-      {
-        "netclass": "CAN Bus",
-        "pattern": "*CANL"
-      },
-      {
-        "netclass": "CAN Bus",
-        "pattern": "*CANH"
-      },
-      {
-        "netclass": "CAN Logic",
-        "pattern": "*CAN_RESET"
-      },
-      {
-        "netclass": "CAN Logic",
-        "pattern": "*CAN_INT"
-      },
-      {
-        "netclass": "CAN Logic",
-        "pattern": "*CANTRANS*"
-      },
-      {
-        "netclass": "CAN Logic",
-        "pattern": "*CAN"
+        "netclass": "SPI Bus",
+        "pattern": "*CAN_CS"
       },
       {
         "netclass": "SPI Bus",
         "pattern": "*SPI*"
       },
       {
-        "netclass": "SPI Bus",
-        "pattern": "*CAN_CS"
-      },
-      {
-        "netclass": "I2C Bus",
-        "pattern": "*I2C*"
-      },
-      {
-        "netclass": "UART/UPDI",
-        "pattern": "*UPDI"
-      },
-      {
-        "netclass": "UART/UPDI",
-        "pattern": "*UPDI_MCU"
-      },
-      {
-        "netclass": "UART/UPDI",
-        "pattern": "*UART*"
-      },
-      {
-        "netclass": "Xstl",
-        "pattern": "*OSC*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*ADC*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*NTC*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*Vref"
+        "netclass": "SW",
+        "pattern": "*SW*"
       },
       {
         "netclass": "Status & Control",
@@ -766,16 +781,24 @@
         "pattern": "*PS*"
       },
       {
-        "netclass": "Gate",
-        "pattern": "*out*"
+        "netclass": "UART/UPDI",
+        "pattern": "*UART*"
       },
       {
-        "netclass": "Analog",
-        "pattern": "*TS"
+        "netclass": "UART/UPDI",
+        "pattern": "*UPDI_MCU"
       },
       {
-        "netclass": "Gate",
-        "pattern": "*POL_GATE"
+        "netclass": "UART/UPDI",
+        "pattern": "*UPDI"
+      },
+      {
+        "netclass": "Xstl",
+        "pattern": "*OSC*"
+      },
+      {
+        "netclass": "Charger Settings",
+        "pattern": "*ISET*"
       }
     ]
   },
