@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "U3 GND escape clearance"
+	(constraint clearance (min 0.075mm))
+	(condition "A.Reference == 'U3' || B.Reference == 'U3'"))

@@ -1438,7 +1438,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8030bb5b-b463-45e7-87db-4ab635727d1f")
-		(property "Sheetname" "Power Regulator"
+		(property "Sheetname" "Power Regulators"
 			(at 104.14 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1505,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "a7e85cd0-99ff-418b-b157-324cad7ee261")
-		(property "Sheetname" "Connectors"
+		(property "Sheetname" "External Connectors"
 			(at 104.14 128.8284 0)
 			(show_name no)
 			(do_not_autoplace no)
