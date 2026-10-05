@@ -2308,6 +2308,12 @@
 		(uuid "a332242f-6d8c-48e5-aa9b-67fa3fe74058")
 	)
 	(junction
+		(at 135.89 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155afb5f-b289-4fd8-a62f-9dc787bef23d")
+	)
+	(junction
 		(at 139.7 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2348,6 +2354,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49a466f2-5b7e-4ec7-9a87-8a136d5997e2")
+	)
+	(junction
+		(at 201.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa17581-f11f-44b4-bd67-dcc1ba351db2")
 	)
 	(junction
 		(at 196.85 64.77)
@@ -2398,12 +2410,6 @@
 		(uuid "978bc774-5288-4932-ab4a-84af3aebc572")
 	)
 	(junction
-		(at 201.93 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f0763a7-6c84-4404-a121-a9439e531377")
-	)
-	(junction
 		(at 139.7 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2450,12 +2456,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a0700f-8979-41cc-a33c-d1179daadf47")
-	)
-	(junction
-		(at 135.89 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7649d37-aa7c-4756-ae9d-65417e2e36cb")
 	)
 	(junction
 		(at 237.49 54.61)
@@ -2558,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "1ac93b28-0f32-4f79-82e7-f380f6de9325")
+	)
+	(wire
+		(pts
+			(xy 201.93 102.87) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c8c97-2e90-4ac9-8db0-a0e1324b8e93")
 	)
 	(wire
 		(pts
@@ -2671,16 +2681,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 135.89 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fc3744-e032-49c8-9eaa-fd633ddb11e8")
-	)
-	(wire
-		(pts
 			(xy 171.45 45.72) (xy 170.18 45.72)
 		)
 		(stroke
@@ -2738,6 +2738,16 @@
 			(type default)
 		)
 		(uuid "75e1f9ef-73a4-48a4-9b73-d3bb15f2af43")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3d43cd-59ba-4ea9-b8f1-0c910c71faff")
 	)
 	(polyline
 		(pts
@@ -2801,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 204.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8abb4faa-2b40-4422-82a3-5d425ca4b566")
-	)
-	(wire
-		(pts
 			(xy 227.33 36.83) (xy 227.33 38.1)
 		)
 		(stroke
@@ -2851,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 138.43 106.68)
+			(xy 133.35 106.68) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2888,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "abf38e52-082f-41c0-9b39-9c37ed666a98")
+	)
+	(wire
+		(pts
+			(xy 201.93 105.41) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbdc02b-8a6b-4f6d-b58b-03afccc05b5e")
 	)
 	(wire
 		(pts
@@ -2981,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de74d4f3-d631-4717-a310-18d930985f6a")
+	)
+	(wire
+		(pts
 			(xy 217.17 67.31) (xy 222.25 67.31)
 		)
 		(stroke
@@ -3040,6 +3060,18 @@
 			(justify right bottom)
 		)
 		(uuid "08dbe178-4895-4af1-956c-85fdc4f9a3a3")
+	)
+	(label "CAN_CTRL_VDD"
+		(at 135.89 105.41 0)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ca586aa-2519-4aa3-8692-fd5d30e06203")
 	)
 	(label "CANL"
 		(at 237.49 57.15 0)
@@ -3144,6 +3176,16 @@
 			(justify right bottom)
 		)
 		(uuid "689474f0-8db9-41b5-9028-32bb98870d45")
+	)
+	(label "CAN_TRANS_VCC"
+		(at 201.93 102.87 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "79e63066-bd61-4491-bc07-6a8f477fbdca")
 	)
 	(label "RXCAN"
 		(at 195.58 64.77 180)
@@ -5391,160 +5433,6 @@
 						(name "5v Dumb")
 						(dnp yes)
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 201.93 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69a8976a-4648-4af1-a86d-6302400d5c6e")
-		(property "Reference" "#PWR049"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 201.93 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7708b5a5-7272-407d-a0af-2212400f0988")
-		)
-		(instances
-			(project "power_module"
-				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69e3165f-ccb1-4770-935d-4db46a268ad8")
-		(property "Reference" "#PWR044"
-			(at 135.89 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 102.616 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a5fba41-4114-4671-9822-683f6e3c61ae")
-		)
-		(instances
-			(project "power_module"
-				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/2c777b8c-fce7-4c8f-b22a-e5c1ebb4dbeb"
-					(reference "#PWR044")
-					(unit 1)
 				)
 			)
 		)

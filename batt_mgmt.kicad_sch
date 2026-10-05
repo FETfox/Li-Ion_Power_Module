@@ -1026,40 +1026,60 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_GSD"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "PowerMOSFET:DMP2008UFG-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at -3.302 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "Q_PMOS_GSD"
-				(at 5.08 0 0)
+			(property "Value" "DMP2008UFG-7"
+				(at -1.016 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2008UFG.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Diodes Inc DMP2008UFG-7 P-channel MOSFET Transistor, 11 A, -20 V, 8-Pin POWERDI3333"
+				(at 3.556 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1069,8 +1089,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "0.8"
+				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1078,10 +1098,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
+			(property "Mouser Part Number" "621-DMP2008UFG-7"
+				(at 21.59 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1089,10 +1110,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2008UFG-7?qs=wo71MgyKIyHArDy7nW0BNA%3D%3D"
+				(at 21.59 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1100,180 +1122,49 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Q_PMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
 			)
-			(symbol "Q_PMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
+			(property "Manufacturer_Part_Number" "DMP2008UFG-7"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "DMP2008UFG-7_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1289,8 +1180,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
+					(at 8.89 0 180)
+					(length 5.08)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -1307,9 +1199,10 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(at 8.89 0 180)
+					(length 5.08)
+					(hide yes)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1317,6 +1210,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3480,7 +3409,7 @@
 		)
 		(uuid "bc2634e6-a45a-4128-9201-6ae62d1e5f90")
 	)
-	(text_box "R17 is used to bypass the polarity protection circuit."
+	(text_box "R5 is used to bypass the polarity protection circuit."
 		(exclude_from_sim no)
 		(at 161.29 121.9199 0)
 		(size 52.07 4.1933)
@@ -3558,6 +3487,18 @@
 		(uuid "257aa8ad-aacd-4ef1-875f-271e772d0a0b")
 	)
 	(junction
+		(at 203.2 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288391f3-0472-40b1-81da-2c9525f176cf")
+	)
+	(junction
+		(at 200.66 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "295fa2f7-f3af-4735-9136-7fc19e59638b")
+	)
+	(junction
 		(at 245.11 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3570,12 +3511,6 @@
 		(uuid "4a2b116a-9058-456d-a55e-e4598e18b6c5")
 	)
 	(junction
-		(at 201.93 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ea517c6-2d0c-433f-bafe-c957fe5c4184")
-	)
-	(junction
 		(at 257.81 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,6 +3521,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57e88958-a48a-493b-bad9-42cd23ec99cc")
+	)
+	(junction
+		(at 182.88 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641fb172-6c17-4183-9b57-19a7a8468ef9")
 	)
 	(junction
 		(at 171.45 143.51)
@@ -3634,12 +3575,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "955cf902-ade0-4b2d-93ab-ea792e602046")
-	)
-	(junction
-		(at 185.42 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ab1f264-1dfa-4645-ac52-ff736cf35728")
 	)
 	(junction
 		(at 200.66 91.44)
@@ -3706,12 +3641,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ff5a7f-8483-40a6-af11-1a1650831601")
-	)
-	(junction
-		(at 198.12 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6066ef8-f0ab-4fa7-8ce6-c065e4c77dd9")
 	)
 	(wire
 		(pts
@@ -3795,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 143.51) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feb8608-87ce-497f-a68e-85463221aeba")
+	)
+	(wire
+		(pts
 			(xy 246.38 142.24) (xy 246.38 132.08)
 		)
 		(stroke
@@ -3875,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 134.62) (xy 198.12 134.62)
+			(xy 195.58 134.62) (xy 200.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3892,6 +3831,16 @@
 			(type default)
 		)
 		(uuid "3c889ea4-2271-4535-95a1-9128cace8879")
+	)
+	(wire
+		(pts
+			(xy 199.39 143.51) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f864df3-fca3-4fa1-b9a5-cc1e75ef178c")
 	)
 	(wire
 		(pts
@@ -3965,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 158.75) (xy 180.34 151.13)
+			(xy 180.34 162.56) (xy 180.34 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3975,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 185.42 134.62)
+			(xy 187.96 134.62) (xy 182.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +3994,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62) (xy 185.42 143.51)
+			(xy 182.88 134.62) (xy 182.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 134.62) (xy 198.12 143.51)
+			(xy 200.66 134.62) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4175,23 +4124,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 158.75) (xy 180.34 158.75)
+			(xy 191.77 162.56) (xy 180.34 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba13e7c4-300e-4b7e-bd4f-3a7fe38613d3")
-	)
-	(wire
-		(pts
-			(xy 196.85 143.51) (xy 198.12 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf494e0-cdb4-45a6-8abf-02479300f667")
 	)
 	(wire
 		(pts
@@ -4215,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 143.51) (xy 185.42 143.51)
+			(xy 171.45 143.51) (xy 182.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4255,16 +4194,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 143.51) (xy 201.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a43718-2aaa-4c1f-b733-de4aaf7bb181")
-	)
-	(wire
-		(pts
 			(xy 246.38 132.08) (xy 252.73 132.08)
 		)
 		(stroke
@@ -4272,16 +4201,6 @@
 			(type default)
 		)
 		(uuid "e39e01cf-8570-48ff-b117-a16ad3aecc28")
-	)
-	(wire
-		(pts
-			(xy 185.42 143.51) (xy 186.69 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6cc7c4d-cf59-4ea9-9335-a45488754a46")
 	)
 	(wire
 		(pts
@@ -4302,6 +4221,16 @@
 			(type default)
 		)
 		(uuid "e891b0d9-04bc-4bad-857a-d0b0dd859d57")
+	)
+	(wire
+		(pts
+			(xy 182.88 143.51) (xy 184.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb92461c-2838-45cb-a25c-c4907ce00b33")
 	)
 	(wire
 		(pts
@@ -4352,6 +4281,16 @@
 			(type default)
 		)
 		(uuid "f8ac76f3-4f56-43ff-9738-c9137e18700f")
+	)
+	(wire
+		(pts
+			(xy 191.77 151.13) (xy 191.77 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8f61f7-c89b-4617-8d2a-e8f2cc1e4fce")
 	)
 	(wire
 		(pts
@@ -4670,7 +4609,7 @@
 		(uuid "f6e9a422-fd82-4110-a000-90fac0624f09")
 	)
 	(label "POL_GATE"
-		(at 191.77 151.13 0)
+		(at 191.77 152.4 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5395,9 +5334,6 @@
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "R5")
 					(unit 1)
-					(variant
-						(name "5v Dumb")
-					)
 				)
 			)
 		)
@@ -6218,6 +6154,156 @@
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerMOSFET:DMP2008UFG-7")
+		(at 191.77 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f4f9296-f8df-48f1-a433-f44cfe11a340")
+		(property "Reference" "Q2"
+			(at 191.77 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP2008UFG-7"
+			(at 191.77 138.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 213.36 238.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2008UFG.pdf"
+			(at 213.36 338.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Diodes Inc DMP2008UFG-7 P-channel MOSFET Transistor, 11 A, -20 V, 8-Pin POWERDI3333"
+			(at 195.326 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 213.36 538.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP2008UFG-7"
+			(at 213.36 638.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2008UFG-7?qs=wo71MgyKIyHArDy7nW0BNA%3D%3D"
+			(at 213.36 738.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 213.36 838.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMP2008UFG-7"
+			(at 213.36 938.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "b156f1db-7798-4a3d-a2bc-aea1a32c27b8")
+		)
+		(pin "2"
+			(uuid "08b50ad6-400b-4abb-81a6-9afcb29da62f")
+		)
+		(pin "1"
+			(uuid "87671bac-33fe-46c6-99a6-aba3d9c5c027")
+		)
+		(pin "4"
+			(uuid "dbd746ff-27a4-44c9-9976-adca27165686")
+		)
+		(pin "3"
+			(uuid "66c6f3ef-5ea2-4635-b4ec-cae2d9bb6768")
+		)
+		(instances
+			(project "power_module"
+				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9089,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 201.93 143.51 0)
+		(at 203.2 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9011,10 +9097,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90c6de53-4196-46b7-844d-278d2c3947f2")
 		(property "Reference" "#PWR011"
-			(at 201.93 147.32 0)
+			(at 203.2 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +9110,7 @@
 			)
 		)
 		(property "Value" "+PACK"
-			(at 201.93 138.43 0)
+			(at 204.47 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9035,7 +9120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 143.51 0)
+			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 143.51 0)
+			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9057,7 +9142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 201.93 143.51 0)
+			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,7 +10735,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 201.93 143.51 0)
+		(at 203.2 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10661,7 +10746,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a8d1b0-9c90-4a21-9acd-2bb5d204156c")
 		(property "Reference" "TP12"
-			(at 203.2 142.2399 0)
+			(at 204.47 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10672,7 +10757,7 @@
 			)
 		)
 		(property "Value" "+Pack"
-			(at 203.2 144.7799 0)
+			(at 204.47 144.7799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10684,7 +10769,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 207.01 143.51 0)
+			(at 208.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,7 +10780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 143.51 0)
+			(at 208.28 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10706,7 +10791,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 201.93 143.51 0)
+			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11205,7 +11290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 191.77 154.94 0)
+		(at 191.77 158.75 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11216,7 +11301,7 @@
 		(dnp no)
 		(uuid "dcb8ea4d-9732-48ef-9c1d-abf04ab4ca6f")
 		(property "Reference" "R6"
-			(at 192.786 156.464 0)
+			(at 192.786 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11227,7 +11312,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 192.786 154.432 0)
+			(at 192.786 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11238,7 +11323,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.786 154.686 90)
+			(at 192.786 158.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 154.94 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11260,7 +11345,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 191.77 154.94 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11271,7 +11356,7 @@
 			)
 		)
 		(property "MFR#" ""
-			(at 191.77 154.94 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11367,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 191.77 154.94 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11293,7 +11378,7 @@
 			)
 		)
 		(property "LCSC#" "C14675"
-			(at 191.77 154.94 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11928,99 +12013,6 @@
 			(project "power_module"
 				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 191.77 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8e32eeb-9124-40be-9055-1651e694d04e")
-		(property "Reference" "Q2"
-			(at 191.516 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMP3056L"
-			(at 192.786 140.462 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 191.77 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C150724"
-			(at 191.77 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3aaf489f-ea4b-4f8c-828b-f6dc2bc730c0")
-		)
-		(pin "3"
-			(uuid "f529cf7d-de91-4383-b144-feaaa9fe0d46")
-		)
-		(pin "2"
-			(uuid "d8748814-6e4f-4e86-8c3b-d2ce02959a18")
-		)
-		(instances
-			(project "power_module"
-				(path "/33e2b92e-f705-4be7-96f4-57092b8ec1ea/d3495413-1b7d-4fcf-bddf-7a80ce18b16c"
-					(reference "Q2")
 					(unit 1)
 				)
 			)

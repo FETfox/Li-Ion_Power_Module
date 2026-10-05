@@ -3224,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH B4B"
+		(property "Value" "JST_PH"
 			(at 236.728 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,7 +3258,7 @@
 			)
 		)
 		(property "Description" "Ext Cell"
-			(at 244.094 36.068 0)
+			(at 240.792 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3479,7 +3479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT"
+		(property "Value" "JST_PH"
 			(at 177.546 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,9 +3512,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 86.36 0)
-			(hide yes)
+		(property "Description" "External"
+			(at 181.61 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

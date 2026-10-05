@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.2,
         "silk_text_italic": false,
@@ -514,7 +514,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -1132,7 +1132,7 @@
         "uuid": "33e2b92e-f705-4be7-96f4-57092b8ec1ea"
       }
     ],
-    "used_designators": "U1-8,TVS1-2,Q1-2,L1,J1-4,BT1,Y1,#PWR1-64,D1,C1-26,R1-51,LED1-3,TP1-46",
+    "used_designators": "LED1-3,TP1-46,R1-51,NT1,TVS1-2,Q1-2,L1,J1-4,BT1,Y1,#PWR1-64,U1-8,D1,C1-26",
     "variants": [
       {
         "description": "3v3 smart design",
