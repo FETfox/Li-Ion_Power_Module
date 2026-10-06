@@ -1,5 +1,5 @@
 # KiCad Netlist — Li Lion Power Module w/ Optional Fuel Gauge &CAN Bus
-# 144 components, 82 nets, 5 sheets
+# 144 components, 83 nets, 5 sheets
 
 ## Sheet: Battery Management
 components[57]{ref,value,footprint}:
@@ -139,6 +139,7 @@ components[29]{ref,value,footprint}:
   C9,22uF,C_0805_2012Metric
   L1,1uH,DR73
   LED3,PGOOD,LED_0603_1608Metric
+  NT1,NetTie_2,NetTie-2_SMD_Pad2.0mm
   R21,0R,R_1206_3216Metric
   R22,1.2M,R_0603_1608Metric
   R23,137k,R_0603_1608Metric
@@ -155,12 +156,11 @@ components[29]{ref,value,footprint}:
   TP26,REG_OUT,TestPoint_Pad_D1.0mm
   TP27,LDO_VIN,TestPoint_Pad_D1.0mm
   TP28,+3v3,TestPoint_Pad_D1.0mm
-  TP29,REG_PGOOD,TestPoint_Pad_D1.0mm
   TP30,LDO_VOUT,TestPoint_Pad_D1.0mm
   U4,TPS63020DSJR,IC_TPS63020DSJR
   U5,MD53R33,SOT-23-5
 
-nets[82]{name,pins}:
+nets[83]{name,pins}:
   +3V3,"D1.1,R24.2,R28.2,R29.2,R30.2,R33.1,R41.1,R47.1,TP28.1"
   +5V,"C2.1,J1.A9,J1.B9,R13.2,R17.2,TP5.1,TVS2.2,U2.13"
   +CELL,"BT1.1,J4.1,Q2.5,R5.1,TP2.1"
@@ -208,9 +208,9 @@ nets[82]{name,pins}:
   OSC_TUNE,"C19.2,R42.1,Y1.3"
   POL_GATE,"Q2.4,R6.2"
   PS,"R26.2,R27.1,U4.13,U6.14"
-  REG_EN,"U4.12"
-  REG_PGOOD,"LED3.1,R29.1,TP29.1,U4.14,U6.2"
-  REG_VIN,"C8.1,C9.1,R21.2,TP25.1,U4.10,U4.11"
+  REG_EN,"NT1.1,U4.12"
+  REG_PGOOD,"LED3.1,R29.1,U4.14,U6.2"
+  REG_VIN,"C8.1,C9.1,NT1.2,R21.2,TP25.1,U4.10,U4.11"
   REG_VOUT,"C10.1,C11.1,J2.1,R22.1,R24.1,R25.2,TP26.1,U4.4,U4.5"
   RXCAN,"R45.2,TP40.1,U7.2"
   Rs,"R46.2,U8.8"
@@ -230,10 +230,11 @@ nets[82]{name,pins}:
   UPDI_VCC,"D1.2,J3.1"
   V-,"R2.1,U1.6"
   VDC,"C3.1,R15.2,R16.2,R19.2,R21.1,TP13.1,U2.10,U2.11"
-  Vina,"C7.1,R26.1,TP24.1,U4.1"
+  Vina,"C7.1,R26.1,TP24.1"
   Vref,"C25.1,R48.1,R49.2,TP41.1,U8.5"
   unconnected-(Q1-D1{slash}D2-Pad7),"Q1.7"
   unconnected-(U1-NC-Pad1),"U1.1"
+  unconnected-(U4-VINA-Pad1),"U4.1"
   unconnected-(U5-NC-Pad4),"U5.4"
   unconnected-(U7-CLKOUT{slash}SOF-Pad3),"U7.3"
   unconnected-(U7-NC-Pad15),"U7.15"
